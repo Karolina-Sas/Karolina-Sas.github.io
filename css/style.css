@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+    font-family: 'DotGothic16', sans-serif;
+    
+}
+
+body {
+    background-image: url("../img/background-palms3.png");
+    background-size: cover;
+    overflow-x:hidden;
+      }
+
+.header{
+    width: 50%;
+    background-color: rgb(218, 220, 224); 
+    margin-left:auto;
+    margin-right: auto;
+    box-shadow: 5px 10px 30px rgb(216, 108, 192);
+}    
+.header h1{
+    font-size: 45px;
+    color: rgb(175, 159, 171);
+    letter-spacing:22px;
+    height: 4em;
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+           
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    margin: 20px auto;
+}
+
+li{
+   
+    padding: 15px;
+    list-style-type: none;
+    /* wycentrowanie tekstu: */
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    }
+
+.tile{
+    height: 120px;
+    width: 450px;
+    background-image: url("../img/tile.png");
+    background-size: cover;
+}
+
+.menu-items{
+    margin-top: 25vh;
+    /* display: flex;
+    align-content: center;
+    justify-content: center; */
+    }
+.tile{
+    align-items: center;
+    justify-content: center;
+    margin:30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color:rgb(39, 38, 39);
+}
+
+li>a:hover{
+    color:rgb(159, 92, 190);
+    
+}
+
+p{
+    font-size: 28px;
+    width: 50vw;
+    height: 200px;
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23vh;
+}
+#tools{
+    font-size: 25px;
+    color: #9d41e7;
+    position: relative;
+    bottom:40vh;
+}
+
+h3{
+    position: relative;
+    left:20vw;
+    font-size: 50px;
+    color:rgb(192, 137, 243);
+    text-shadow: 0 0 5px #f858d3;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(0, 225, 255),
+    0 0 80px rgb(130, 92, 236),
+    0 0 90px rgb(226, 176, 255),
+    0 0 100px rgb(211, 86, 190),
+    0 0 150px rgb(247, 30, 229);
+    
+}
+#cyber-pal{
+    position: relative;
+    right:15vw;
+    bottom: 20vh;
+    background-image:url("../img/frame.png") ;
+    background-size: cover;
+    width: 40vw;
+    height: 50vh;
+    font-size: 20px;
+    padding:120px;
+}
+#doll{
+    height: 17%;
+    width:17% ;
+    position: relative;
+    bottom:100vh;
+    left:45vw;
+    z-index:10;
+}
+
+#cyber2,#frame4 {
+    height: 30%;
+    width:30% ;
+    z-index:2;
+}
+#cyber2{
+    position: relative;
+    bottom:120vh;
+    left: 10vw;
+}
+
+#cyber4{
+    position: relative;
+    bottom:105vh;
+    left:1%;
+  
+}
