@@ -92,6 +92,21 @@ p{
     position: relative;
     bottom:40vh;
 }
+.icons-box{
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width:50%;
+    height: 200px;  
+}
+
+.tech-ico{
+    display: block;
+    width:100px;
+    height: 100px;
+}
 
 h3{
     position: relative;
